@@ -25,6 +25,27 @@ void main() {
   list.insertAll(3, list1);
   print(list);
 
+  // map
+  var map = {'key1': 'Value1', 'key2': 2, 'key3': 5.9, 'key4': true};
+  print(map);
+
+  var map1 = Map();
+  map1['name'] = "Alif";
+  map1['id'] = 11111;
+  map1['dept.'] = "CSE";
+  print(map1);
+  print(map1.isEmpty);
+  print(map1.isNotEmpty);
+  print(map1.length);
+  print(map1.keys);
+  print(map1.values);
+  print(map1.containsKey('dept.'));
+  print(map1.containsValue(true));
+  print(map1.remove('id'));
+  print(map1);
+
+  print('\n\n');
+
   // Different class call
   var mC = myClass();
 
